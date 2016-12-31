@@ -1,30 +1,17 @@
-
- .az_input_suggestion_box_wrapper {
-     input[type="text"]{
-         margin-bottom:0px;
-     }
-     &, .az_input_suggestion_box
-     {
-         -webkit-transition:none;
-            -moz-transition:none;
-            -ms-transition:none;
-            -o-transition:none;
-            transition:none;
-     }
-    .az_input_suggestion_box {
-        border: 1px solid #dddddd;
-
-        
-
-        .az_input_suggestion {
-            border-bottom: 1px solid #dddddd;
-            padding: 5px 10px;
-            cursor: pointer;
-
-            &:hover, &.active{
-                color:#FFF;
-                background-color:#0094d3;
-            }
-        }
-    }
-}
+.az_input_suggestion_box_wrapper input[type="text"] {
+  margin-bottom: 0px; }
+.az_input_suggestion_box_wrapper, .az_input_suggestion_box_wrapper .az_input_suggestion_box {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none; }
+.az_input_suggestion_box_wrapper .az_input_suggestion_box {
+  border: 1px solid #dddddd; }
+  .az_input_suggestion_box_wrapper .az_input_suggestion_box .az_input_suggestion {
+    border-bottom: 1px solid #dddddd;
+    padding: 5px 10px;
+    cursor: pointer; }
+    .az_input_suggestion_box_wrapper .az_input_suggestion_box .az_input_suggestion:hover, .az_input_suggestion_box_wrapper .az_input_suggestion_box .az_input_suggestion.active {
+      color: #FFF;
+      background-color: #0094d3; }
